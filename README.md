@@ -45,7 +45,7 @@ touch .env
 ```
 5. Add this inside `.env`:
 ```
-MONGO_URI=mongodb+srv://felixmonari:monari24@cluster1.lnizb.mongodb.net/ToDo
+MONGO_URI=mongodb+srv://your-username:your-password@your-cluster.mongodb.net/ToDo
 PORT=4000
 
 In this case, I used the following MongoDB URI to connect to my database:
