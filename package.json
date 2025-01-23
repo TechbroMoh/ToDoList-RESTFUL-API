@@ -1,0 +1,33 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "api",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Monari",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TechbroMoh/ToDoList-RESTFUL-API.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TechbroMoh/ToDoList-RESTFUL-API.git"
+  },
+  "homepage": "https://github.com/TechbroMoh/ToDoList-RESTFUL-API.git"
+}
