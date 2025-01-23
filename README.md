@@ -45,8 +45,15 @@ touch .env
 ```
 5. Add this inside `.env`:
 ```
-MONGO_URI=mongodb+srv://your-username:your-password@your-cluster.mongodb.net/ToDo
+MONGO_URI=mongodb+srv://felixmonari:monari24@cluster1.lnizb.mongodb.net/ToDo
 PORT=4000
+
+In this case, I used the following MongoDB URI to connect to my database:
+MONGO_URI=mongodb+srv://felixmonari:monari24@cluster1.lnizb.mongodb.net/ToDo
+
+Additionally, I was running the server locally on port 4000. You can change the PORT value if you want to use a different one.
+
+Make sure to replace felixmonari and monari24 with your own MongoDB credentials.
 ```
 
 ### 4. Start MongoDB Shell (Local Users Only)
